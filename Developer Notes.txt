@@ -1,0 +1,8 @@
+Developer Notes
+
+
+		LIST TO  DO!
+
+I have to create teh connection Sring to link my Listbox, and ComboBoxes to my data base
+I need a Procedure that allows my Database to be updated from the program 
+through the save function and I need to keep the program from leaving a vacant post.

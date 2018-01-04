@@ -1,0 +1,106 @@
+﻿<Window x:Class="AssignSchedule.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AssignSchedule"
+        mc:Ignorable="d"
+        Title="PostAssign" Height="600" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="193*"/>
+            <ColumnDefinition Width="324*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl HorizontalAlignment="Left" Width="792" Margin="0,22,0,0" Grid.ColumnSpan="2">
+            <TabItem Header="Assign Post">
+                <Grid Background="#FFE5E5E5" Margin="0,1,-2,-42">
+                    <DataGrid x:Name="Grid" ItemsSource="{Binding day}" Grid.Row="1"  HorizontalAlignment="Left" Height="266" Margin="29,158,0,0" VerticalAlignment="Top" Width="730"
+                              
+                              />
+                    
+                    
+                    <Label Content="Select Employee&#xD;&#xA;" HorizontalAlignment="Left" Margin="29,51,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,0.077" Height="27" Width="103"/>
+                    <ComboBox x:Name="cbxemp" HorizontalAlignment="Left" Margin="146,56,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox x:Name="cbxday" HorizontalAlignment="Left" Margin="146,105,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Choose the Day" HorizontalAlignment="Left" Margin="29,101,0,0" VerticalAlignment="Top" Width="103"/>
+                    <ComboBox  x:Name="cbxpost" HorizontalAlignment="Left" Margin="407,105,0,0" VerticalAlignment="Top" Width="165"/>
+                    <Label Content="Shift" HorizontalAlignment="Left" Margin="302,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.654" Width="91"/>
+                    <Label Content="Post" HorizontalAlignment="Left" Margin="302,105,0,0" VerticalAlignment="Top" Width="62"/>
+                    <Button x:Name="Create" Content="Assign Post" HorizontalAlignment="Left" Margin="657,108,0,0" VerticalAlignment="Top" Width="75" Click="create_Click"/>
+                    <TextBox x:Name ="CustomShift" HorizontalAlignment="Left" Height="23" Margin="407,60,0,0" TextWrapping="Wrap" Text="3:00pm : 11:00PM" VerticalAlignment="Top" Width="165"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Print Schudel">
+                <Grid Background="#FFE5E5E5">
+                    <ListBox x:Name="listbox" SelectionMode="Multiple" HorizontalAlignment="Left" Height="335" Margin="75,130,0,0" VerticalAlignment="Top" Width="565"/>
+                    <Label Content="Display the Schuduel" HorizontalAlignment="Left" Margin="261,99,0,0" VerticalAlignment="Top" Width="184"/>
+                    <ComboBox x:Name ="viewshift" HorizontalAlignment="Left" Margin="44,66,0,0" VerticalAlignment="Top" Width="120" DropDownOpened="viewshift_DropDownOpened"/>
+                    <Label Content="Display an Employee Shift" HorizontalAlignment="Left" Margin="30,35,0,0" VerticalAlignment="Top" Width="186"/>
+                </Grid>
+
+            </TabItem>
+
+            <TabItem Header="Add a Post" Name="tpost">
+                <Grid Background="#FFE5E5E5"  ShowGridLines="True">
+                    <Label Content="Type in the new post and Shift!" HorizontalAlignment="Left" Margin="251,10,0,0" VerticalAlignment="Top" Width="304"/>
+                    <Button Content="Add Post" Name="addpost" HorizontalAlignment="Left" Margin="423,385,0,0" VerticalAlignment="Top" Width="246" Click="addpost_Click" />
+                    <Button Content="Cancle" HorizontalAlignment="Left" Margin="62,385,0,0" VerticalAlignment="Top" Width="251" RenderTransformOrigin="0.013,0.6"/>
+                    <Label Content="Post" HorizontalAlignment="Left" Margin="62,36,0,0" VerticalAlignment="Top" Width="68"/>
+                    <Label Content="Shift" HorizontalAlignment="Left" Margin="293,36,0,0" VerticalAlignment="Top" Width="67"/>
+                    <Label Content="Day" HorizontalAlignment="Left" Margin="549,36,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox HorizontalAlignment="Left" Name="Apost" Height="23" Margin="62,67,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="172"/>
+                    <TextBox HorizontalAlignment="Left" Name="Ashift" Height="23" Margin="283,67,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="162"/>
+                    <TextBox HorizontalAlignment="Left" Name="Aday" Height="23" Margin="549,67,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="172"/>
+                    <ListView x:Name ="showcontracts" HorizontalAlignment="Left" Height="244" Margin="62,136,0,0" VerticalAlignment="Top" Width="659">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Label Content="&#x9;&#x9;Current Contracts!" HorizontalAlignment="Left" Margin="208,105,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.974,-0.077" Width="300"/>
+                </Grid>
+
+
+
+
+            </TabItem>
+
+
+
+
+
+            <TabItem Header="Add Employee">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="172*"/>
+                        <RowDefinition Height="547*"/>
+                    </Grid.RowDefinitions>
+                    <ListBox x:Name="emplistbox"  SelectionMode="Multiple" HorizontalAlignment="Left" Height="317" Margin="91,102,0,0" VerticalAlignment="Top" Width="616" Grid.RowSpan="2"/>
+                    <Button Content="Cancle" HorizontalAlignment="Left" Margin="91,300,0,0" Grid.Row="1" VerticalAlignment="Top" Width="212" Click="Button_Click_1"/>
+                    <Button Content="Add Employee" HorizontalAlignment="Left" Margin="492,300,0,0" Grid.Row="1" VerticalAlignment="Top" Width="215" Click="Button_Click"/>
+                    <TextBox x:Name="Tbox" HorizontalAlignment="Left" Height="23" Margin="185,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="262"/>
+                    <Label Content="Type the Employee Name" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,0.308" Width="170"/>
+
+
+                </Grid>
+
+
+
+
+            </TabItem>
+
+
+
+        </TabControl>
+        <Menu HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="60">
+            <MenuItem Header=" _File" Width="60" Height="22" Click="MenuItem_Click">
+                <MenuItem Header=" _Save" Click="MenuItem_Click_1"/>
+                <MenuItem Header=" _Print" Click="MenuItem_Click_1"/>
+                <MenuItem Header=" _Exit" Click="MenuItem_Click_2"/>
+            </MenuItem>
+        </Menu>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="144,-40,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
