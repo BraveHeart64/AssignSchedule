@@ -1,0 +1,47 @@
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.exe.config
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.exe
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.pdb
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csprojResolveAssemblyReference.cache
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\MainWindow.g.cs
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\App.g.cs
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule_MarkupCompile.cache
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule_MarkupCompile.lref
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\MainWindow.baml
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.g.resources
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.Properties.Resources.resources
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csproj.GenerateResource.Cache
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csproj.CoreCompileInputs.cache
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.exe
+C:\Users\Ryan Love\source\repos\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.pdb
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.exe.config
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.exe
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.pdb
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\MainWindow.g.cs
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\App.g.cs
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule_MarkupCompile.cache
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule_MarkupCompile.lref
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\MainWindow.baml
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.g.resources
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.Properties.Resources.resources
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csproj.GenerateResource.Cache
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csproj.CoreCompileInputs.cache
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.exe
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.pdb
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.exe.config
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.exe
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\bin\Debug\AssignSchedule.pdb
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\MainWindow.g.cs
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\App.g.cs
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule_MarkupCompile.cache
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule_MarkupCompile.lref
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\MainWindow.baml
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.g.resources
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.Properties.Resources.resources
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csproj.GenerateResource.Cache
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.exe
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.pdb
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csprojResolveAssemblyReference.cache
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.csprojResolveAssemblyReference.cache
+C:\Users\RL\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.PrintWindow.resources
+C:\Users\Ryan\Desktop\AssignSchedule\AssignSchedule\obj\Debug\AssignSchedule.PrintWindow.resources
